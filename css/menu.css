@@ -1,0 +1,24 @@
+.menu-toggle div{
+    display: inline-block;
+    font-size: 20px;
+    color: darkgrey;
+    margin: 15px;
+}
+
+.left-menu-bar, .menu-header{
+	padding: 0px;
+	/*position: fixed;*/
+}
+
+.left-menu-bar nav{
+    height: 100%;
+    /*position: fixed;*/
+    background-color: #242424;
+    /*overflow-y: auto;*/
+}
+
+.page-footer{
+	font-size: 20px;
+    color: darkgrey;
+    background-color: #242424;
+}

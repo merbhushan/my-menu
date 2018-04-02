@@ -1,0 +1,14 @@
+:root{
+    /* Set a page section color */
+    --page-header-bg-color: black;
+    --page-body-left-menu-bg-color: black;
+    --page-body-content-color: black;
+    --page-footer-bg-color: black;
+
+    --side-menu-font-icon-color: #FF5737;
+    /* Set a various link color */
+    --left-menu-link-color: #c0c0c0;
+    --content-body-link-color: #0d638f;
+
+    --content-body-bg-image: ;
+}

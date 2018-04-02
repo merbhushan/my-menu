@@ -8,16 +8,33 @@ E-mail: samson3d@gmail.com
 ----------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 
+/* Import Menu customization variable */
+@import url(./custom-menu.css);
+
 /* Ace Responsive Menu
 ----------------------------------------*/
+/* url a tag used in left side menu bar. */
+.ace-responsive-menu li a {
+    color:var(--left-menu-link-color, #C0C0C0);
+}
+/* font used in left side menu item */
+.ace-responsive-menu li a i {
+    padding-right: 5px;
+    color: var(--side-menu-font-icon-color, #FF5737);
+}
+/* Set margin and padding to 0 of ul elements under nav bar */
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
 a {
     text-shadow: none;
     color: #0d638f;
 }
-ul {
-    margin: 0px;
-    padding: 0px;
-}
+
 .ace-responsive-menu {
     list-style: none;
     margin: 0;
@@ -41,9 +58,7 @@ ul {
     border: 0px;
     float: left;
 }
-.ace-responsive-menu li a {
-        color:#c0c0c0;
-}
+
 .ace-responsive-menu > li > a {
     display: block;
     position: relative;
@@ -55,10 +70,7 @@ ul {
     font-weight: 300;
     color: #c0c0c0;
 }
-.ace-responsive-menu li a i {
-    padding-right: 5px;
-    color: #FF5737;
-}
+
 .ace-responsive-menu > li > a i {
     font-size: 16px;
     text-shadow: none;
